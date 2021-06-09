@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Care</string>
+    <string name="username">John Doe</string>
+    <string name="spinner_titlle">Gender</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_etablissement_selectionne">EtablissementSelectionne</string>
+    <string name="tab_followUp">FollowUp</string>
+    <string name="tab_message">Message</string>
+    <string name="tab_info">Information</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">suivis patient</string>
+    <!--validation inscription-->
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="lastname">LastName</string>
+    <string name="firstname">FirstName</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="lastname_error">Please enter your lastname</string>
+    <string name="firstname_error">Please enter your firstname</string>
+    <string name="date_error">Please enter your birthday</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="accessCode_error">Please enter a access code</string>
+    <string name="confirmpassword_error">Please enter a confirmpassword</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="error_equal_password_and_confirmPassword">The password confirmation value is different from that entered in the password field</string>
+    <string name="title_activity_home">Home</string>
+</resources>

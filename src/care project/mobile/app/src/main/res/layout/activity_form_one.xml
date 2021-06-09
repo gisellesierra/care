@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/formLauyout"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="480dp"
+        android:background="#4eb0d5"
+        >
+
+        <Button
+            android:id="@+id/btn_Validation_Form"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="Validation"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="280dp"
+            android:background="#494545"/>
+    </LinearLayout>
+
+    <!--  end footer  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/logoEtablissementClique"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_logo"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/tv_nameEtablissement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name etablisssement"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llmainQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_questionthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="xxx"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@drawable/border"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/rdGroup"
+                android:layout_below="@+id/txtView">
+                <RadioButton
+                    android:id="@+id/rdbOui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="oui" />
+                <RadioButton
+                    android:id="@+id/rdbNon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="non" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>

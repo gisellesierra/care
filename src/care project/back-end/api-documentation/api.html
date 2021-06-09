@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Api Documentation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="doc-api.js"></script>
+    <script>
+        for (const key in API) {
+            document.querySelector('body').innerHTML += '' +
+                '<h4>' + key + '</h4>' +
+                '<div id = ' + key + '>'
+            for (const value of API[key]) {
+                document.querySelector('#' + key).innerHTML += '' +
+                    '<div>' +
+                    '<h5>' + value.title + '</h5>' +
+                    '<details>' +
+                    '<summary>#' + value.Method + ' ' + value.url + '</summary>' +
+                    (value['request_body'] !== undefined ?
+                        'Request Body' +
+                        '<pre>' +
+                        JSON.stringify(value.request_body, null, 4) +
+                        '</pre>'
+                        :
+                        ''
+                    ) +
+                    "Response" +
+                    '<pre>' +
+                    JSON.stringify(value.response, null, 4) +
+
+                    '</pre>'
+                document.querySelector('#' + key).innerHTML += '' +
+                    '</details>'
+                '</div>'
+            }
+            document.querySelector('#' + key).innerHTML += '</div>'
+        }
+    </script>
+</body>
+
+</html>

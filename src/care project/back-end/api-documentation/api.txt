@@ -1,0 +1,14 @@
+Users
+1 : admin
+2 : representant
+3 : patient
+4 : super-admin
+
+SEXE
+1 : male
+2 : female
+
+
+********************************************
+Infos Supplementaires:
+- AddUser -> envoie un message si email existe OU acces code invalide

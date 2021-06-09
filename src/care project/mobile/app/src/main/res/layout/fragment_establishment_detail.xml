@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/establishmentDetail"
+    android:background="#9BA39D"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="480dp"
+        android:background="@color/Blue_Care"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+    </LinearLayout>
+<!--  end footer  -->
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:id="@+id/llnameEtablissement">
+            <ImageView
+                android:id="@+id/logoEtablissementClique"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_logo"
+            />
+
+            <TextView
+                android:id="@+id/tv_nameEtablissement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name etablisssement"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:id="@+id/lldetail">
+            <TextView
+                android:id="@+id/tv_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:id="@+id/tv_Address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:id="@+id/tv_Phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:id="@+id/tv_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:background="@drawable/border"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9BA39D"
+    android:tag="@+tag/fragmentListFollowUpEstablishment"
+    android:id="@+id/fragmentListFollowUpEstablishmentLayout"
+    >
+
+   <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="480dp"
+        android:background="#4eb0d5"
+        >
+
+       <Button
+           android:id="@+id/btn_add_newFollowUp"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:layout_marginBottom="5dp"
+           android:text="ADD"
+           android:textColor="@color/white"
+           android:textSize="15dp"
+           android:layout_marginLeft="280dp"
+           android:background="#494545"/>
+    </LinearLayout>
+<!--End footer-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:id="@+id/llEstablishmentName"
+        >
+        <ImageView
+            android:id="@+id/logoEtablissementClique"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_logo"
+            />
+
+        <TextView
+            android:id="@+id/tv_nameEtablissement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name etablisssement"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/listEstablishments"
+                    android:layout_width="match_parent"
+                    android:layout_height="340dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="100dp" />
+            </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

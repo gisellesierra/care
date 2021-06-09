@@ -1,0 +1,1933 @@
+/**commune a tout le monde*/
+body{
+    /*width: 90%;*/
+    /*margin: auto;*/
+}
+a{text-decoration: none}
+/*  Footer */
+
+footer .main-footer{	padding: 20px 0;	background: #252525;}
+footer ul{	padding-left: 0;	list-style: none;}
+
+/* Copy Right Footer */
+.footer-copyright {
+    background: #222;
+    padding: 5px 0;
+}
+.footer-copyright .logo {
+    display: inherit;
+}
+.footer-copyright nav {
+    float: right;
+    margin-top: 5px;
+}
+.footer-copyright nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-copyright nav ul li {
+    border-left: 1px solid #505050;
+    display: inline-block;
+    line-height: 12px;
+    margin: 0;
+    padding: 0 8px;
+}
+.footer-copyright nav ul li a{
+    color: #969696;
+}
+.footer-copyright nav ul li:first-child {
+    border: medium none;
+    padding-left: 0;
+}
+.footer-copyright p {
+    color: #969696;
+    margin: 2px 0 0;
+}
+
+/* Footer Top */
+    .footer-top{
+        background: #252525;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 3px solid #222;
+    }
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{
+    background: transparent;
+}
+footer.transparent .footer-copyright{
+    background: none repeat scroll 0 0
+    rgba(0, 0, 0, 0.3) ;
+}
+
+/* Footer light */
+footer.light .footer-top{
+    background: #f9f9f9;
+}
+footer.light .main-footer{
+    background: #f9f9f9;
+}
+footer.light .footer-copyright{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;
+}
+
+/* Footer 4 */
+.footer- .logo {
+    display: inline-block;
+}
+
+/*====================
+	Widgets
+====================== */
+.widget{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.widget.widget-last{
+    margin-bottom: 0px;
+}
+.widget.no-box{
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 40px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+.widget.subscribe p{
+    margin-bottom: 18px;
+}
+.widget li a{
+    color: #ff8d1e;
+}
+.widget li a:hover{
+    color: #4b92dc;
+}
+.widget-title {
+    margin-bottom: 20px;
+}
+.widget-title span {
+    background: #839FAD none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 20%;
+}
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+.widget-title.text-center span,.widget-title.text-center span::after {
+    margin-left: auto;
+    margin-right:auto;
+    left: 0;right: 0;
+}
+.widget .badge{
+    float: right;
+    background: #7f7f7f;
+}
+
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{
+    color: #fff;
+}
+
+ul.social-footer2 {
+    margin: 0;
+    padding: 0;
+    width: auto;}
+ul.social-footer2 li {
+    display: inline-block;
+    padding: 0;
+}
+ul.social-footer2 li a:hover {
+    background-color:#ff8d1e;
+}
+ul.social-footer2 li a {
+    display: block;
+    height:30px;
+    width: 30px;
+    text-align: center;
+}
+/*.btn{color: #48c3fa}*/
+/*.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;*/
+/*    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);*/
+/*    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);*/
+/*    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);*/
+/*    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);*/
+/*    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);*/
+/*    -webkit-transition: all 250ms ease-in-out 0s;*/
+/*    -moz-transition: all 250ms ease-in-out 0s;*/
+/*    -ms-transition: all 250ms ease-in-out 0s;*/
+/*    -o-transition: all 250ms ease-in-out 0s;*/
+/*    transition: all 250ms ease-in-out 0s;*/
+
+/*}*/
+
+.row{display: flex;justify-content: space-around}
+.mailCare{color: #48c3fa}
+
+/*navigation*/
+.linksUl{
+    /*background-color: #48c3fa;*/
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 70px;
+
+}
+.linksUl li{
+    padding:10px 30px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+   margin-left:7px;
+}
+.linksUl li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #48c3fa;
+    border: 1px solid #48c3fa;
+
+}
+
+/*Header*/
+header{
+    /*background-color:#48c3fa ;*/
+    height: 200px;
+
+}
+header .logo{
+  display: flex;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+header .headerTop{
+    display: flex;
+    justify-content: space-between;
+
+}
+.publicHeader{
+    background-image: url("../assets/medical-header-pou-water-filters.jpg");
+    background-repeat:no-repeat ;
+    object-fit: cover;
+    background-size: cover
+}
+
+ header h1{
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+
+}
+header .connexion{
+    font-size: 20px;
+    color: white;
+    padding: 10px 50px 10px 10px;
+    margin-right: 20px;
+    background-size: cover;
+}
+header span{
+    padding:8px;
+    cursor: pointer;
+    background-color: #ff8d1e;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+nav{
+    width: 75%;
+    position: relative;
+    bottom: 50px;
+    margin-left: 26%;
+    margin-top: 20px;
+}
+/*header admin*/
+ .carelogo {
+     width: 150px;
+     height: 150px;
+     object-fit: cover;
+     margin-top: 10px;
+
+}
+.headerAdmin h1{
+    /*margin-bottom: 80px;*/
+    font-size: 60px;
+    color: white;
+    margin-left: 10px;
+}
+
+.publicHeader h1{
+    color: white;
+    font-family: monospace;
+}
+.logocareother {
+    margin-left: 30%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.containerAdmin{
+    display: flex;
+}
+
+/*accueil phote*/
+.imgAccueil{
+    background-image: url("../assets/accueil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 50px;
+}
+.accueiltextimg{
+    width: 700px;
+    position: relative;
+    top: 250px;
+    margin-left: 50px;
+}
+
+.accueiltextimg h1{
+    font-size: 100px;
+}
+
+.accueiltextimg div{
+    font-size:50px;
+}
+
+
+/*Etablissements detail*/
+.etablishement-detail{
+    display: flex;
+    
+}
+.category{
+    text-align: center;
+}
+.img-etablishement-detail{
+    width:70%;
+    flex: 1;
+    object-fit: cover;
+}
+.etablishement-detail>div:first-of-type{
+    text-align: center;
+    margin-top: 50px;
+    width: 45%;
+}
+.etablishement-detail>div:last-of-type{
+    margin-left:10% ;
+    margin-top: 4%;
+}
+.etablishement-detail>div>h1{
+    text-align: center;
+
+}
+.etablishement-detail>div>div:first-of-type{
+    width: 125px;
+    border-bottom: 1px solid #393939;
+    margin: auto auto 35px;
+}
+.btn-add-admin{
+    position: relative;
+}
+/**Etablissements info detail*/
+.etablissement-info{
+    display: flex;
+    margin: 12px;
+}
+.etablissement-info h5{
+    font-weight: bold;
+}
+.etablissement-info>div:first-child{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.etablissement-info-1{
+    margin-top: 30px;
+}
+
+/*Sign In component*/
+
+.signIn h1{
+text-align: center;
+margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.signIn{
+    border-left: 1px solid black;
+   width: 40%;
+    margin-left: 10%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.inputSignIn{
+    display: flex;
+    /*width: 50%;*/
+    justify-content: center;
+    /*margin-top: 20px;*/
+    margin-right: 80px;
+}
+.signIn button{
+  position: relative;
+    left: 7px;
+}
+.inputSignIn  input{
+    border: 1px solid black;
+    width: 60%;
+}
+
+.inputSignIn  label{
+    /*border: 1px solid black;*/
+    text-align: right;
+    padding-right: 50px;
+    box-sizing: border-box;
+    width: 33%;
+    font-size: 18px;
+}
+
+.inputSignIn>input{
+    margin-bottom: 10px;
+
+}
+
+.signIn button{
+    background-color: #ff8d1e;
+    color: white;
+    margin-left:40%;
+    width: 25%;
+    margin-top: 20px;
+}
+
+.textAccount{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subscribeText{
+    text-align: center;
+    margin-top: 20px;
+    color: #4b92dc;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+     margin: 0 auto;
+}
+
+ td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+ .td-right{
+   font-weight: bold;
+     text-align: justify;
+     padding-left: 50px;
+ }
+ tr:nth-child(even) {
+    background-color: #c4e3fd;
+}
+ .bizcharts{
+     width: 100%;
+     margin: auto;
+ }
+
+ /*Image Component*/
+.logoEtablissement{
+
+}
+.logoEtablissement img{
+    width: 100%;
+    margin-left: 25px;
+}
+
+.logoEtablissement>div{
+    text-align: center;
+    color: #4b92dc;
+    text-decoration: underline;
+
+}
+
+/*SIgnIn Container*/
+.msgErreur{
+    text-align: center;
+    /*margin-bottom:30px;*/
+    color: red;
+    /*display: none;*/
+
+}
+.signInContainer{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.homePageImg{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.homePageImg>img{
+  margin-bottom: 50px;
+    width: 120%;
+}
+
+.homePageImg>div{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+/*etablissement list*/
+.hover {
+    margin: 15px 0px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+}
+.hover:hover{
+    cursor: pointer;
+}
+.hover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    transition: all 0.4s;
+}
+
+.hover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.hover-content {
+    position: relative;
+    z-index: 99;
+}
+.hover-5::after {
+     content: '';
+     width: 100%;
+     height: 10px;
+     background:  #48c3fa;
+     position: absolute;
+     bottom: -10px;
+     left: 0;
+     display: block;
+     transition: all 0.3s;
+     z-index: 999;
+ }
+
+.hover-5 .hover-overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-5-title {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    transition: all 0.3s;
+    padding: 2rem 3rem;
+    z-index: 99;
+}
+
+.hover-5-title span {
+    transition: all 0.4s;
+    opacity: 0;
+    color:  #48c3fa;
+}
+
+.hover-5:hover .hover-overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.hover-5:hover .hover-5-title {
+    bottom: 0;
+}
+
+.hover-5:hover .hover-5-title span {
+    opacity: 1;
+}
+
+.hover-5:hover::after {
+    bottom: 0;
+}
+.row{
+    justify-content: center;
+}
+
+/*New partner*/
+.newPartnerContainer{
+    margin: auto;
+    width: 85%;
+}
+.newPartnerContainer h1{
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    width:30%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.establishmentInfo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.establishmentInfo>div:first-of-type{
+    width: 50%;
+}
+.imglogoestablishment{
+    width: 50%;
+}
+.partnerAdminInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+input.form-control {
+    padding: 20px;
+}
+.newPartnerContainer input{
+    padding: 25px;
+    margin-bottom: 35px;
+}
+.new-admin{
+    margin: 25px auto;
+    padding: 25px;
+    width: 50%;
+    border: 1px solid #c4c4c4;
+    background-color: white;
+    border-radius: 10px;
+}
+.admin{
+    /*background-color: #f1efef;*/
+}
+.newPartnerContainer label{
+  font-size: 18px;
+}
+
+
+.imglogoestablishment label{
+    /*margin-top: 40px;*/
+    width: 40%;
+
+    ;
+}
+.imglogoestablishment img{
+    width: 100%;
+    height: 295px;
+    object-fit: cover;
+}
+
+.adresseestablishment{
+   margin-top: 15px;
+    width: 83%;
+    margin-left: 40px;
+
+}
+
+.newPartnerContainer button{
+    color: white;
+    padding:10px;
+    width: 30%;
+
+}
+.newpartnerH2{
+    text-align: center;
+}
+.newpartnerButton{
+    display: flex;
+    margin: 15px auto 5px;
+}
+.newpartnerButton button{
+    width: 125px;
+    margin: 5px;
+}
+.newPartnerContainer button:last-child{
+    margin-left: 10px;
+
+}
+.fa-plus-circle{
+    color: white;
+}
+.btn-new-partner{
+    color: white;
+}
+.btn-new-partner:hover{
+    background-color: #28a745;
+}
+.partners>div:first-of-type{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.partners>div:first-of-type button{
+    height: max-content;
+    margin-top: 10px;
+}
+.partners h1{
+    border-bottom: 1px solid #b1b0b0;
+    padding-bottom: 20px;
+}
+
+/*List Patients admin*/
+.listPatientAdmin{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.listPatientAdmin{
+    width: 90%;
+    margin-bottom: 50px;
+    margin: auto;
+}
+.listPatientAdmin li{
+    width: 90%;
+}
+.listPatientAdmin aside{
+    border-radius: 10px;
+
+}
+.datasInfo{
+    width: 100%;
+}
+.licontenue{
+   height: 180px;
+
+}
+
+.navbarPatientList{
+    margin-bottom: 20px;
+    padding:10px;
+}
+.patientsActivity{
+    position: relative;
+    left: 490px;
+    bottom: 130px;
+    width: 15%;
+}
+.listPatientAdmin aside{
+    /*margin-left: 50%;*/
+    background-color: #f0f2f7f7;
+    width: 50%;
+    height: 750px;
+}
+.listPatientAdmin aside label{
+    font-weight: bold;
+}
+.navbarPatientList span{
+   font-weight: bold;
+}
+.chat-div{
+    flex: 1;
+    margin: 10px;
+}
+.listPatientAdmin li{
+    /*border: 1px solid black;*/
+    /*width: 305%;*/
+    list-style-type: none;
+    margin-bottom: 20px;
+    background-color: #ddddddcc;
+    padding: 15px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+.inlineinput {
+    display: flex;
+}
+.inlineinput div{
+    width: 150px;
+    text-align: left;
+    font-weight: 500;
+    /*position: relative;*/
+    /*right: 10px;*/
+}
+.listPatientAdmin li span{
+    /*font-weight: 500;*/
+}
+.listPatientAdmin li:hover{
+    background-color:#969696 ;
+    cursor: pointer;
+}
+.contenueListPatientAdmin h5{
+    font-weight: bold;
+}
+.contenueListPatientAdmin {
+    width: 90%;
+    margin:auto;
+}
+.contenueListPatientAdmin aside>h5{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contenueListPatientAdmin aside input{
+    height: 30px;
+    background-color: #f0f2f7f7;
+    margin-bottom: 20px;
+}
+.dobAside input{
+    border: none;
+    width: 50px;
+    padding-left: 10px;
+}
+.dobAside{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.asidebutton{
+    display: flex;
+    justify-content: space-between;
+}
+/*ajout de patient (admin)*/
+
+
+
+.mandatoryInfo{
+    display: flex;
+    width: 50%;
+   margin: auto;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+.addPatient h1{
+    text-align: center;
+}
+.addPatient{
+    width: 90%;
+    margin: auto;
+    padding: 60px;
+}
+.addPatient>h1{
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.newTreatmentPatient{
+    position: relative;
+    top: 40px;
+}
+/*.newTreatmentPatient h3{*/
+/*    margin-bottom: 20px;*/
+/*}*/
+.newTreatmentPatient select{
+    height: 45px;
+    margin-bottom: 20px;
+}
+.operationtype div, .specific div{
+    font-size: 20px;
+}
+.newTreatmentPatient button{
+    position: relative;
+    top: 20px;
+    right: 80px;
+    margin-top: 20px;
+}
+.generatorcode{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.generatorcode{
+    border-right: 1px solid grey;
+    padding-right: 60px;
+    width: 50%;
+}
+.generatorcode label{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.addPatient div~h1{
+    text-align: center;
+    margin-right: 20%;
+}
+.treamentadded{
+    margin-bottom: 50px;
+}
+.patientinfo{
+    background-color: #f0f2f7f7;
+    width: 60%;
+    height: 500px;
+    padding-top: 100px;
+}
+.patientinfo input{
+    background-color: #f0f2f7f7;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    margin-right:60px;
+
+}
+.patientinfo{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: auto auto 40px auto;
+}
+.h4subscribe{
+    margin-bottom: 50px;
+}
+
+
+.treamentadded{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-note{
+    color: white;
+}
+.btn-note:hover{
+    background-color: #28a745;
+}
+.lastMessage{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.badge{
+    width: min-content;
+}
+
+/*Our services (admin)*/
+
+.tilesWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tilesWrap {
+    padding: 0;
+    margin: 50px auto;
+    list-style: none;
+    text-align: center;
+}
+.tilesWrap li {
+    display: inline-block;
+    width: 20%;
+    min-width: 200px;
+    max-width: 230px;
+    padding: 80px 20px 40px;
+    position: relative;
+    vertical-align: top;
+    margin: 10px;
+    font-family: 'helvetica', san-serif;
+    min-height: 25vh;
+    /*background: #262a2b;*/
+    border: 1px solid #252727;
+    text-align: left;
+
+}
+.list-group-item{
+    cursor: pointer;
+    margin: 0;
+}
+.discussionh2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #b5b8b8;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.k-widget.k-chat{
+    border-radius: 10px;
+}
+/**chat conversation*/
+.k-message>div{
+    /*max-width: 75%;*/
+}
+.k-chat{
+    max-width: unset;
+}
+.k-chat .k-message-time{
+    /*opacity: 1;*/
+}
+.chat_image{
+    height:200px;
+    object-fit: cover;
+}
+.fa-paperclip{
+    font-size:28px
+}
+.fa-paperclip:hover{
+    color: #007bff;
+    cursor: pointer;
+
+}
+#file-input{
+    display: none;
+}
+.image_uploaded{
+    width: 50%;
+    object-fit: cover;
+}
+
+.k-bubble img{
+    width: 100%;
+    object-fit: cover;
+}
+/**
+*detail suivi
+*/
+.detail-suivi{
+    margin: 10px;
+    display: flex;
+    width: 65%;
+}
+.detail-suivi .detail-suivi-content{
+    width: 100%;
+}
+.suivipatientall{
+    /*width: 50%;*/
+    margin-left: 36%;
+    margin-top: 30px;
+}
+.detail-suivi .detail-suivi-content h3{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.detail-suivi .detail-suivi-content>div:first-of-type {
+    border-radius: 5px;
+}
+
+.personalInfoPAtient span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.personalInfoPAtient h4{
+    color: #4dadd3;
+}
+.supplemenaryInfoPatient h4{
+    color: #4dadd3;
+}
+.supplemenaryInfoPatient li {
+    font-size: 18px;
+}
+
+.supplemenaryInfoPatient textarea{
+  margin-top: 20px;
+    margin-left: 40px;
+
+}
+.supplemenaryInfoPatient button {
+    margin-left: 20px;
+    position: relative;
+    bottom: 12px;
+}
+.personalInfoPAtient div{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.personalInfoPAtient{
+    margin-bottom: 50px;
+}
+.chatContainer{
+    width: 35%;
+}
+.list-patient-reprentant{
+    width: 100%;
+    margin: auto;
+}
+.tilesWrap li h2 {
+    font-size: 114px;
+    margin: 0;
+    position: absolute;
+    opacity: 0.2;
+    top: 50px;
+    right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.tilesWrap li h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+}
+.tilesWrap li p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #7f7f7f;
+    margin-top: 5px;
+}
+.tilesWrap li button {
+    background: transparent;
+    border: 1px solid #b7b7b7;
+    padding: 10px 20px;
+    color: #b7b7b7;
+    border-radius: 3px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-40px);
+    opacity: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.tilesWrap li button:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 120%;
+    background: #b7b7b7;
+    top: 0;
+    opacity: 0;
+    left: -140px;
+    border-radius: 0 20px 20px 0;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+.tilesWrap li:hover button {
+    transform: translateY(5px);
+    opacity: 1;
+}
+.tilesWrap li button:hover {
+    color: #262a2b;
+}
+.tilesWrap li button:hover:before {
+    left: 0;
+    opacity: 1;
+}
+.tilesWrap li:hover h2 {
+    top: 0px;
+    opacity: 0.6;
+}
+
+.tilesWrap li:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: #fff;
+    transform: skew(2deg, 2deg);
+}
+.tilesWrap li:after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.02);
+}
+.tilesWrap li:before {
+    background: #C9FFBF;
+    background: -webkit-linear-gradient(to right, #007bff, #007bff);
+    background: linear-gradient(to right, #007bff, #007bff);
+}
+
+.serviceList li{
+    height: 100px;
+    border: 2px solid black;
+}
+.liServices{
+    display: flex;
+    justify-content: space-between;
+}
+.serviceContainerList{
+   width: 70%;
+    /*margin: auto;*/
+    margin-bottom: 40px;
+    margin-left: 17%;
+}
+.serviceContainerList h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form-inline{
+    justify-content: center;
+    margin-bottom: 30px;
+    /*justify-content: center;*/
+    margin-top: 10px;
+
+}
+
+.serviceContainerList span{
+padding: 10px;
+font-size: 20px;
+}
+
+/*liste des suivis patients*/
+
+.listeSuivisPatient{
+    display: flex;
+    /*width: 50%;*/
+    margin-top: 20px;
+}
+.listesuivis .list-group{
+    width:100%;
+}
+.listeSuivisPatient h5{
+    font-weight: bold;
+}
+.listeSuivisPatient{
+    width: 90%;
+}
+
+.listesuivis{
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 10px auto;
+}
+.listPatientAdmin{
+
+}
+.listeSuivisPatient img{
+    width: 100px;
+    padding-right: 20px;
+}
+/*new treatment*/
+.serviceName{
+    text-align: center;
+}
+
+.newTreatment{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.addingTreatment{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    background-color: #dddddd;
+    padding:50px;
+}
+
+.addingTreatment input{
+    background-color: #dddddd;
+}
+
+.newTreatment h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.newTreatment button{
+    margin-left: 50%;
+    margin-top: 10px;
+}
+.formQuestions .confirm {
+    margin-top: 15px;
+    width: 120px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+
+}
+.addQuestionBtn{
+    margin-top: 15px;
+    width: 120px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+}
+.formGenerator{
+    background-color: #f0f2f7f7;
+    width: 77%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.inputformgenerator{
+    width: 50%;
+    margin: auto;
+}
+.addQuestionBtn{
+    margin-left: 85%;
+}
+.formGenerator h1{
+    padding-top: 20px;
+}
+.formQuestions{
+    margin-top: 40px;
+}
+
+.extraquestionscontainer button{
+    position: relative;
+    left: 20%;
+}
+/*patients follow -up*/
+
+.patientsFollowUp img{
+  width: 200px;
+
+}
+.patientsFollowUp{
+    display: flex;
+    margin-bottom: 20px;
+   margin-top: 20px;
+}
+.followUpInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.followup h2{
+    text-align: center;
+}
+.followup>h4:first-of-type{
+    text-align: center;
+}
+.followUpInfo>div+div{
+   width: 30%;
+}
+
+.followup{
+    width: 100%;
+}
+
+.detailsuivis{
+    width: 65%;
+    border: 1px solid #b1b0b0;
+    margin: auto;
+}
+.detailsuivis>div:first-of-type{
+    display: flex;
+    border-bottom: 1px solid #e2e2e2;
+    height: 200px;
+    text-align: center;
+}
+.detailsuivis>div:first-of-type img{
+    object-fit: cover;
+    height: 100%;
+}
+.etablissement-info>div:last-of-type{
+    padding-top: 25px;
+}
+.detailsuivis .etablissement-info{
+    padding: 25px 15px
+}
+.detailsuivis .etablissement-info>div{
+    margin-left: 10px;
+}
+.followupForm{
+   border: 1px solid #b1b0b0;
+    text-align: center;
+    padding: 20px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+}
+
+.followupForm h2{
+    text-align: center;
+}
+
+.emojiform{
+   width: max-content;
+    margin: auto;
+    text-align: center;
+}
+.emojiform img{
+    width: 9%;
+    cursor: pointer;
+    padding: 2px;
+    margin: 2px 8px;
+}
+.emojiform img:hover{
+    border: 1px solid #bcbcbc;
+}
+.emojiform .checked{
+    border: 1px solid #bcbcbc;
+}
+.followupForm div{
+   margin-bottom: 25px;
+}
+.followupForm textarea{
+    width: 30%;
+    margin: auto;
+}
+.makeStyles-root-1{
+    margin: auto;
+}
+.followupForm h2{
+    width: 100%;
+    margin-bottom: 30px;
+}
+/*Acceuil*/
+
+.textAccueil img{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+}
+
+.textAccueil{
+    display: flex;
+    border-bottom: 25px solid orange;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: auto 50px 50px 50px;
+    margin: auto;
+}
+
+.textAccueil div>div{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 18%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.textAccueil h1{
+    text-align: center;
+}
+
+.introText{
+    display: flex;
+    width: 90%;
+    margin: 50px 150px ;
+    justify-content: space-evenly;
+
+}
+
+.introText h1{
+    width: 60%;
+    border-right: 2px solid orange;
+    height: 300px;
+    margin-top: 50px;
+    padding-right: 70px;
+}
+.statsNumeriqueh2{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 1px solid #dbdbdb;
+}
+.statsNumeriqueh2+div{
+    width: 25%;
+    border-bottom: 1px solid #dbdbdb;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+/**Diagramme Numerique*/
+.diagramme{
+    width: 75%;
+    padding: 10px ;
+    margin: 10px auto;
+}
+
+.introText div +div{
+    margin-right: 15%;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+.text p{
+    padding: 30px;
+    font-size: 20px;
+}
+
+.text h2{
+    margin-left: 6%;
+
+}
+#inputFile{
+    display: none;
+}
+/*Error Messages*/
+.erroMessage{
+    color: red;
+    text-align: center;
+    padding-top:20px ;
+}
+.newPartnerContainer{
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.logoAdd{
+    text-align: center;
+}
+
+/*Form Settings*/
+
+.formQuestions h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.basicQuestions{
+   margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.basicQuestions input{
+    margin-top: 20px;
+}
+
+.inputForm {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settingresponse{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.settingresponse li{
+    text-align: center;
+    margin-bottom: 10px;
+    list-style-type: none
+}
+
+.painImgScale img{
+    width: 100%;
+}
+
+.painImgScale{
+    width: 15%;
+}
+
+.typeNumberInput{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.question{
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
+
+.frequency{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 10px;
+    height: 50px;
+}
+
+.frequency>span{
+    margin-top: 25px;
+}
+
+.settingresponse .w3-circle{
+    margin-left: 200px;
+}
+
+.liQuestions{
+    list-style-type: none;
+}
+
+.textQuestion{
+   position: relative;
+    top: 14px;
+    margin-right: 10px;
+}
+
+.UlliQuestions{
+    justify-content: space-between;
+}
+.fa-trash-o{
+    font-size:23px;
+    color: red;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.preview{
+    border-bottom: 1px solid #cfc4c4;
+}
+.image_to_send{
+    vertical-align: middle;
+    border-style: none;
+    width:89%;
+    object-fit: cover;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+.alert-buttons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 19px 5px 5px;
+}
+.alert-buttons button{
+
+    margin: 2px;
+}
+.fa-send-dialog{
+    font-size:18px
+}
+.sliderTemp{
+    margin-bottom: 29px;
+    text-align: left;
+}
+.makeStyles-root-20{
+    margin: auto;
+}
+.followupForm>div{
+
+}
+.list-patient-reprentant {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    /*margin-left: 350px;*/
+}
+.listPatientRep ul{
+
+}
+.contenueListPatientAdmin{
+    width: 80%;
+}
+
+
+.navbarPatientList {
+    background-color: white;
+    width: 50%;
+    /* margin: auto; */
+    margin-left: 100px;
+}
+
+.list-patient-reprentant .chat-div{
+    width: 30%;
+}
+.detail-suivi-content{
+    /*width: 50%;*/
+}
+.followup-representant {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b1b0b0;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: #4dadd3;
+    color: white;
+    text-align: center;
+}
+/* Stepper bouton **/
+.stepp-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.makeStyles-resetContainer-19 p{
+    text-align: center;
+}
+.radio-btn-response{
+    width:max-content;
+    margin: auto;
+}
+.questionnaire-h{
+    text-align: center;
+}
+.questionnaire{
+    margin-left: 25px;
+}
+.fa-edit {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+.patientsFollowUp{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #b1b0b0;
+    display: flex;
+    justify-content: space-between;
+}
+ol {
+    padding-top: 20px;
+}
+.patientsFollowUp>div{
+    margin-left: 80px;
+}
+ol img{
+    width: 10%;
+    padding: 10px;
+    box-sizing: content-box;
+
+}
+ol span {
+    margin-left: 5px;
+    font-weight: bold;
+}
+.temp-slide{
+    width: max-content;
+    margin: auto;
+}
+.multiple-choice{
+    width: max-content;
+    margin: 5px auto;
+}
+
+ol li{
+    padding: 10px;
+}
+.last-form >h4{
+    padding:  10px;
+    margin-bottom: 50px;
+    display: inline;
+}
+.historyForm>h4{
+    text-align: center;
+    padding:  10px;
+    margin: 5px;
+}
+.last-form{
+
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.form-follow-up{
+    width: 100%;
+    display: flex;
+    border-right: 1px solid darkgray;
+}
+.form-follow-up > div{
+    width: 50%;
+}
+.chart-h4{
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+.chart-div{
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.asideTextHover>span{
+    color: #e4e4e4;
+    position: relative;
+    top: 20px;
+    left: 250px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.signContainerclass{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.generatorcode .form-control:disabled, .form-control[readonly] {
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.signContainerclass button {
+    margin-top: 35px;
+    margin-left: 200px;
+}
+.signupboth{
+    display: flex;
+    justify-content: space-around;
+}
+
+.signContainerclass h1{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.signupboth >div{
+    width: 80%;
+    margin-left: 50px;
+}
+
+.signupboth [type="radio"]{
+    margin-right: 10px;
+}
+
+.contenueListPatientAdmin aside>h5 {
+    /*text-align: center;*/
+    /*padding-top: 20px;*/
+    color: #50b1d4;
+    margin-bottom: 30px;
+}
+
+.detailSuivisAdmin {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detailSuivisAdmin .suivipatientall {
+    /* width: 50%; */
+    margin-top: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+.fa-plus-circle{
+    font-size:36px;
+    color: black;
+}
+.alerts{
+    margin-top: 20px;
+}
+.MultiTrue{
+    display: none;
+}
+.listPatientAdmin{
+    /*width: 100%;*/
+}
+.listPatientAdmin ul{
+    /*width: 70%;*/
+}
+.contenueListPatientRep {
+    width: 80%;
+    margin: auto;
+}
+.detail-suivi-content{
+    width: 65%;
+    margin: auto;
+}
+.detail-suivi-content>h3:first-of-type{
+    text-align: center;
+    padding: 15px;
+    margin: 20px 1px 20px 1px;
+    border-radius: 10px;
+    background-color: #ffc107;
+    color: white;
+}
+.fa-plus-circle-newPartner{
+    color: white;
+    font-size: 22px;
+}
+
+.btnAddpatient{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.adminaddindpatient .msgErreur{
+    position: relative;
+    /* right: 550px; */
+    bottom: 70px;
+    left: 300px;
+}
+.addingpatientmsg {
+    position: relative;
+    left: 330px;
+    top: 130px;
+    width: 30%;
+}
+
+.active{
+    color: green;
+    font-weight: bold;
+}
+
+.inactive{
+    color: red;
+    font-weight: bold;
+}
+
+.activeSpan {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.notRegistered{
+    position: relative;
+    color: red;
+    margin-left: 550px;
+    /* margin-top: 200px; */
+    top: 80px;
+}
+
+.navbarPatientListRep {
+    width: 80%;
+    margin-left: 90px;
+}
+
+.notRegisteredAdmin {
+    color: red;
+    margin-left: 320px;
+    position: relative;
+    top: 50px;
+}
+.succeess-chat{
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin-right: 30px;
+}
+.succeess-chat-red{
+    display: none;
+}
+.close-chat{
+    display: none;
+}
+.k-message-box .k-input{
+    background-color: #f6f6f6;
+}
+.btn-chat-representant{
+    width: 100%;
+}
+.btn-chat-representant{
+    text-align: right;
+}
+
+/*@keyframes chat {*/
+/*    from {margin-left: 0px; margin-right: 0px}*/
+/*    to {margin-left: 500px ; margin-right: -500px;display: none}*/
+/*}*/
+/*.chat-div{*/
+/*    animation-name: chat;*/
+/*    animation-direction: initial;*/
+/*    animation-duration: 1s;*/
+/*}*/
+.succeess-chat-rep{
+    display: none;
+}
+.chat-rep{
+    display: initial;
+}

@@ -1,29 +1,19 @@
-# README #
+# Mobile
+Installer Android Studio Ajouter un Emulateur Executer le projet Mobile dans Cre project
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# Web
+Installer un IDE (VSC ou WebStorm) Installer un Browser Executer le projet Front-End dans le dossier Care Projec dans A partir de l'IDE
 
-### What is this repository for? ###
+//Pour tester vous pouvez utiliser les utilisateurs suivants:
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+# role Administrateur du plateforme
+UserName: admin-care@gmail.com PassWord: care
 
-### How do I get set up? ###
+# role Admin d'un etablissement Medical
+UserName: chum-admin@htmail.montreal.com PassWord: care
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+# role personnel Soignant d'un etablissement Medical
+UserName: rosemarie-chum@care.com PassWord: care
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+# role patient
+UserName: chum@hotmail.montreal.com PassWord: care
